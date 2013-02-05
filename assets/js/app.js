@@ -90,13 +90,13 @@ function parse_response(res) {
 		.find(".detected-faces").html("").append("<p>Found " + (data.images.length-1) + " faces:</p>");
 
 	$.each(data.images, function(i, img) {
-		var el = '<img src="' + img.src + '?r=' + Math.random() + '" alt="" />';
+		var el = '<img src="face-detect/' + img.src + '?r=' + Math.random() + '" alt="" />';
 		results.find((i == 0 ? ".source-img" : ".detected-faces")).append(el);
 	})
 
 	results.find(".source-img img").bind('click', function(e) {
 		var im = data.images[0];
-		var el = '<img src="' + im.src + '" width="' + im.width + '" height="' + im.height + '" alt="" />';
+		var el = '<img src="face-detect/' + im.src + '" width="' + im.width + '" height="' + im.height + '" alt="" />';
 		$(".lightbox", results).find(".lightbox-content").html(el).end().lightbox("show");
 	});
 

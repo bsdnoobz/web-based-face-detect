@@ -1,10 +1,10 @@
 <?php
 if (isset($_SERVER['HTTP_X_FILENAME'])) 
 {
-	$file = 'face-detect/uploads/'.$_SERVER['HTTP_X_FILENAME'];
+	$file = 'uploads/'.$_SERVER['HTTP_X_FILENAME'];
 	file_put_contents("$file", file_get_contents("php://input"));
 
-	$cmd  = 'face-detect\face-detect --input="'.$file.'" --outdir="'.dirname($file).'"';
+	$cmd  = 'face-detect --input="'.$file.'" --outdir="'.dirname($file).'"';
 	$last = exec($cmd, &$out);
 
 	if (strpos($last, 'Error:') === false)

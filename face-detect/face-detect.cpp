@@ -17,8 +17,11 @@ int main(int argc, const char** argv)
 	std::string cascade_file = "haarcascade_frontalface_alt.xml";
 
 	cv::CascadeClassifier cascade;
-	if (!cascade.load(cascade_file))
+	if (cascade_file.empty() || !cascade.load(cascade_file))
+	{
+		std::cout << cv::format("Error: cannot load cascade file!\n");
 		return -1;
+	}
 
 	cv::Mat src = cv::imread(infile);
 	if (src.empty())
