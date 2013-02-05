@@ -26,6 +26,7 @@ Video demo: http://youtube.com/watch?v=0ZDQ7ZH76i0
 
 ---
 
+
 ## Image credits
 
 The sample images in `assets/img/` are Creative Commons licensed.
