@@ -16,7 +16,7 @@ Video demo: http://youtube.com/watch?v=0ZDQ7ZH76i0
 ## Installation
 
 1. First you need to compile `face-detect/face-detect.cpp`.  
-<pre>g++ `pkg-config --cflags --libs opencv` face-detect.cpp -o face-detect</pre>
+<pre>g++ \`pkg-config --cflags --libs opencv\` face-detect.cpp -o face-detect</pre>
 1. Create a directory in your htdocs, e.g: `web-face-detect` and copy all files into the directory.
 1. Start your web server.
 1. Open `http://localhost/web-face-detect` with your browser.
