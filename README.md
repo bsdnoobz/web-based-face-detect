@@ -3,7 +3,6 @@ Web based interface for face detection with OpenCV
 
 A sample project for demonstrating web-based GUI for OpenCV. This project using web technologies (HTML5, Javascript, PHP) for the frontend of my face detection program.
 
-Author: [Nash](http://bsd-noobz.com)   
 Project page: http://goo.gl/jI4xA  
 Video demo: http://youtube.com/watch?v=0ZDQ7ZH76i0
 
@@ -17,7 +16,7 @@ Video demo: http://youtube.com/watch?v=0ZDQ7ZH76i0
 ## Installation
 
 1. First you need to compile `face-detect/face-detect.cpp`.  
-<pre><code>g++ `pkg-config --cflags --libs opencv` face-detect.cpp -o face-detect</code></pre>
+<pre>g++ `pkg-config --cflags --libs opencv` face-detect.cpp -o face-detect</pre>
 1. Create a directory in your htdocs, e.g: `web-face-detect` and copy all files into the directory.
 1. Start your web server.
 1. Open `http://localhost/web-face-detect` with your browser.
