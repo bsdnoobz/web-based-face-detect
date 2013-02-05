@@ -7,8 +7,6 @@ Author: [Nash](http://bsd-noobz.com)
 Project page: http://goo.gl/jI4xA  
 Video demo: http://youtube.com/watch?v=0ZDQ7ZH76i0
 
----
-
 ## Requirements
 
 1. Apache web server
@@ -16,15 +14,11 @@ Video demo: http://youtube.com/watch?v=0ZDQ7ZH76i0
 3. OpenCV 2.4.3 or above
 4. HTML5 enabled web browser (Google Chrome is recommended)
 
----
-
 ## Installation
 
 1. First you need to compile `face-detect/face-detect.cpp`. 
 
-	g++ `pkg-config --cflags --libs opencv` face-detect.cpp -o face-detect
-
----
+<pre><code>g++ `pkg-config --cflags --libs opencv` face-detect.cpp -o face-detect</code></pre>
 
 
 ## Image credits
