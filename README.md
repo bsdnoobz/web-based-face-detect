@@ -25,8 +25,8 @@ Video demo: http://youtube.com/watch?v=0ZDQ7ZH76i0
 
 The sample images in `assets/img/` are Creative Commons licensed.
 
-1.jpg - [Wikimedia Commons](http://commons.wikimedia.org/wiki/File:Peter_Scott-Morgan_(seated)_as_Chairman_of_BCS_Robotics_Committee_in_1983.jpg)
-2.jpg - [Flickr](http://www.flickr.com/photos/dougneiner/4555211967)
-3.jpg - [Flickr](http://www.flickr.com/photos/dougneiner/4555181685)
-4.jpg - [Flickr](http://www.flickr.com/photos/rj3/5640465919)
+* 1.jpg - [Wikimedia Commons](http://commons.wikimedia.org/wiki/File:Peter_Scott-Morgan_\(seated\)_as_Chairman_of_BCS_Robotics_Committee_in_1983.jpg)
+* 2.jpg - [Flickr](http://www.flickr.com/photos/dougneiner/4555211967)
+* 3.jpg - [Flickr](http://www.flickr.com/photos/dougneiner/4555181685)
+* 4.jpg - [Flickr](http://www.flickr.com/photos/rj3/5640465919)
 
