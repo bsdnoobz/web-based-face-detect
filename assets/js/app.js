@@ -10,9 +10,6 @@ if (window.File && window.FileList && window.FileReader) {
 	init();
 }
 
-var res = '{ "success": true, "images": [ { "src": "face-detect/uploads/jqueryconf.jpg", "width": "640", "height": "426" }, { "src": "face-detect/uploads/face-1.jpg", "width": "50", "height": "50" }, { "src": "face-detect/uploads/face-2.jpg", "width": "50", "height": "50" }, { "src": "face-detect/uploads/face-3.jpg", "width": "50", "height": "50" }, { "src": "face-detect/uploads/face-4.jpg", "width": "50", "height": "50" }, { "src": "face-detect/uploads/face-5.jpg", "width": "50", "height": "50" }, { "src": "face-detect/uploads/face-6.jpg", "width": "50", "height": "50" }, { "src": "face-detect/uploads/face-7.jpg", "width": "50", "height": "50" } ] }';
-var res2 = '{"success":false,"msg":"Error: cannot load source image!"}';
-
 function show_page() {
 	form.hide();
 	progress.hide();
