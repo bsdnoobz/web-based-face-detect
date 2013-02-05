@@ -1,0 +1,70 @@
+
+h1 {
+	margin: 0;
+	font-size: 28px;
+	line-height: 75px;
+	text-align: center;
+}
+
+#wrap {
+	min-height: 100%;
+	height: auto !important;
+	height: 100%;
+	margin: 0 auto;
+}
+
+#dropbox {
+	position: relative;
+	margin-bottom: 25px;
+	padding: 15px;
+	text-align: center;
+	font-size: 25px;
+	color: #aaa;
+	border: #ccc 2px dashed;
+	border-radius: 15px;
+}
+#dropbox.hover {
+	border-color: #f00;
+}
+#form-upload {
+	margin: 75px 0;
+}
+#form-upload #file-input {
+	visibility: hidden;
+	width: 0;
+	height; 0;
+}
+
+#dropbox #progress {
+	width: 50%;
+	margin: 75px 0;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#results .source-img {
+	margin-bottom: 15px;
+}
+#results .source-img img {
+	max-height: 250px;
+}
+#results .detected-faces {
+	color: #333;
+	font-size: 20px;
+}
+#results .detected-faces img {
+	height: 50px;
+	margin: 5px;
+}
+
+#actions {
+	text-align: center;
+}
+
+.alert .close {
+	font-size: 13px;
+}
+.alert p {
+	margin-bottom: 0;
+}
+
